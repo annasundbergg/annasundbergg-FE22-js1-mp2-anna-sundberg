@@ -1,34 +1,49 @@
 body {
-    font-family: "Courier New", Courier, monospace;
-    text-align: center;
-    height: 100vh;
-    width: 100vw;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-h1 {
-    font-family: "Nabla", cursive;
-    font-size: 100px;
-    text-align: center;
+#title {
+  padding-top: 2rem;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 100px;
+  text-align: center;
+  background: -webkit-linear-gradient(#f8be00, #ff8f1e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .winner {
-    font-family: "Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
-div {
-    border: 3px solid gold;
-    padding: 2rem;
-    margin: 2rem;
+#player-form,
+#game-container {
+  border: 3px solid gold;
+  border-radius: 5px;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  width: 320px;
+  height: 200px;
+}
+
+#game-container {
+  width: 320px;
+  height: 400px;
 }
 
 button {
-    background-color: gold;
+  background: linear-gradient(#f8be00, #f99e44);
+  border-radius: 5px;
 }
 
 #gameContainer button {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 #go {
-    display: none;
+  display: none;
 }
